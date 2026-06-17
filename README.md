@@ -6,6 +6,8 @@
 
 > 项目定位：课程产品 Demo / 宣传展示页原型，不是医疗诊断系统。
 
+在线预览：[https://dreamyou-website.vercel.app](https://dreamyou-website.vercel.app)
+
 ## 项目简介
 
 梦友是一款以中国神兽“梦貘”为概念的儿童床头灯产品。它在白天作为普通床头灯使用，夜间进入睡眠呵护模式，通过柔和的灯光与声音引导孩子入睡，并结合温湿度、噪声、红外、雷达、振动、触摸等传感器数据，辅助家长理解孩子的睡眠状态和异常情况。
@@ -14,7 +16,7 @@
 
 - 展示 DreamPal / 梦友产品视觉与日夜两种使用场景
 - 播放产品概念视频，帮助快速理解完整体验
-- 提供 Android APK 下载入口，方便汇报或演示时分发
+- 保留 Android APK 分发入口的展示形式；公开仓库不上传安装包，线上版本跳转到 App 前端仓库
 - 通过明亮 / 夜间主题切换呼应产品的白天与夜晚模式
 - 与移动端 App、后端服务仓库形成完整作品集入口
 
@@ -48,7 +50,7 @@ Next.js 宣传官网
 
 | 分类 | 技术 |
 | --- | --- |
-| Web 框架 | Next.js 15, App Router |
+| Web 框架 | Next.js 16, App Router |
 | UI 语言 | React 19, TypeScript |
 | 样式 | Tailwind CSS 4, CSS Variables |
 | 主题 | React Context, localStorage, `prefers-color-scheme` |
@@ -65,7 +67,7 @@ Next.js 宣传官网
 | 日夜主题 | 根据主题切换白天 / 夜间设备图片、背景渐变和下载按钮样式 |
 | 主题记忆 | 首次进入时读取系统深浅色偏好，之后使用 localStorage 保存选择 |
 | 宣传视频 | 使用 HTML5 video 播放产品 Demo 视频，并提供封面图 |
-| APK 下载 | 通过静态资源链接下载 Android 安装包 |
+| App 入口 | 线上版本跳转到 Expo App 前端仓库；本地可按需放置 Android APK 安装包 |
 | 移动端适配 | 小屏下将“下载”和“视频”拆成底部切换视图，减少页面拥挤 |
 
 ## 项目架构
